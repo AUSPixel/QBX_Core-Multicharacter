@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AUSPixel Character Selector</title>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link id="themeCss" rel="stylesheet" href="style.css">
+  <script>
+    (function () {
+      var link = document.getElementById('themeCss');
+      if (link) {
+        var base = link.getAttribute('href').split('?')[0];
+        link.setAttribute('href', base + '?_=' + Date.now());
+      }
+    })();
+  </script>
+</head>
+<body>
+  <div id="root" class="hidden">
+    <div id="confirm" class="modal" aria-hidden="true" style="display:none">
+      <div class="backdrop"></div>
+      <div class="card card-sm">
+        <h3>Delete this character?</h3>
+        <p>This action is permanent.</p>
+        <div class="actions end">
+          <button type="button" class="btn secondary" id="confirmCancel">Cancel</button>
+          <button type="button" class="btn danger" id="confirmYes">Delete</button>
+        </div>
+      </div>
+    </div>
+    <div id="details" class="modal" aria-hidden="true" style="display:none">
+      <div class="backdrop"></div>
+      <div class="card idcard">
+        <div class="id-head">
+          <img id="idBadge" alt="badge" src="logo/unemployed.png">
+          <div class="id-title">
+            <h2 id="idName">—</h2>
+            <div id="idCitizen" class="cid">—</div>
+          </div>
+          <button id="detailsClose" class="x" aria-label="Close">×</button>
+        </div>
+        <div class="id-grid">
+          <label>Job</label><div id="idJob">—</div>
+          <label>Job Grade</label><div id="idGrade">—</div>
+          <label>Gender</label><div id="idGender">—</div>
+          <label>DOB</label><div id="idDOB">—</div>
+          <label>Nationality</label><div id="idNat">—</div>
+          <label>Phone</label><div id="idPhone">—</div>
+          <label>Cash</label><div id="idCash">—</div>
+          <label>Bank</label><div id="idBank">—</div>
+        </div>
+      </div>
+    </div>
+    <div id="modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true" style="display:none">
+      <div class="backdrop"></div>
+      <div class="card form-card">
+        <div class="card-header">
+          <div class="appicon"><img src="logo/unemployed.png" alt="icon"></div>
+          <div>
+            <h2>Character Registration Form</h2>
+            <p>To get started, please provide all the required information in the fields below.</p>
+          </div>
+        </div>
+        <form id="createForm" autocomplete="off">
+          <div class="field">
+            <label>First Name</label>
+            <input required name="firstname" placeholder="Hank" />
+          </div>
+          <div class="field">
+            <label>Last Name</label>
+            <input required name="lastname" placeholder="Jordan" />
+          </div>
+          <div class="field two">
+            <div>
+              <label>Birth Date</label>
+              <input required name="birthdate" type="date" placeholder="dd/mm/yyyy" />
+            </div>
+            <div>
+              <label>Nationality</label>
+              <select required name="nationality" id="nationalitySelect">
+                <option value="" disabled selected>Select nationality</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label>Gender</label>
+            <select required name="gender">
+              <option value="" disabled selected>Select gender</option>
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </div>
+          <div class="actions end">
+            <button type="button" class="btn secondary" id="cancelCreate">Cancel</button>
+            <button type="submit" class="btn primary" id="submitCreate">Continue</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="dock" class="dock">
+      <div id="dockInner" class="dock-inner"></div>
+    </div>
+  </div>
+  <script src="app.js" defer></script>
+</body>
+</html>
