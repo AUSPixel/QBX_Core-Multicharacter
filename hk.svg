@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="r">
+      <circle cx="50" cy="50" r="50"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <image x="0" y="0" width="100" height="100" preserveAspectRatio="xMidYMid slice"
+           href="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20id%3D%22flag-icons-hk%22%20viewBox%3D%220%200%20512%20512%22%3E%0A%20%20%3Cpath%20fill%3D%22%23EC1B2E%22%20d%3D%22M0%200h512v512H0%22/%3E%0A%20%20%3Cpath%20id%3D%22hk-a%22%20fill%3D%22%23fff%22%20d%3D%22M282.3%20119.2C203%20114%20166.6%20218%20241.6%20256.4%20215.6%20234%20221%20201%20231.5%20184l1.9%201c-13.8%2023.6-11.2%2052.8%2011%2071-12.6-12.2-9.4-39%2012.2-48.8s23.6-39.3%2016.4-49.1q-14.7-25.6%209.3-39zM243.9%20180l-4.7%207.4-1.8-8.6-8.6-2.3%207.8-4.3-.6-9%206.5%206.2%208.3-3.3-3.7%208%205.6%206.9z%22/%3E%0A%20%20%3Cuse%20xlink%3Ahref%3D%22%23hk-a%22%20transform%3D%22rotate%2872%20248.5%20259.5%29%22/%3E%0A%20%20%3Cuse%20xlink%3Ahref%3D%22%23hk-a%22%20transform%3D%22rotate%28144%20248.5%20259.5%29%22/%3E%0A%20%20%3Cuse%20xlink%3Ahref%3D%22%23hk-a%22%20transform%3D%22rotate%28216%20248.5%20259.5%29%22/%3E%0A%20%20%3Cuse%20xlink%3Ahref%3D%22%23hk-a%22%20transform%3D%22rotate%28288%20248.5%20259.5%29%22/%3E%0A%3C/svg%3E"/>
+  </g>
+</svg>

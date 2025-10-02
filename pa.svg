@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="r">
+      <circle cx="50" cy="50" r="50"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <image x="0" y="0" width="100" height="100" preserveAspectRatio="xMidYMid slice"
+           href="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20id%3D%22flag-icons-pa%22%20viewBox%3D%220%200%20512%20512%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3CclipPath%20id%3D%22pa-a%22%3E%0A%20%20%20%20%20%20%3Cpath%20fill-opacity%3D%22.7%22%20d%3D%22M0%200h512v512H0z%22/%3E%0A%20%20%20%20%3C/clipPath%3E%0A%20%20%3C/defs%3E%0A%20%20%3Cg%20fill-rule%3D%22evenodd%22%20clip-path%3D%22url%28%23pa-a%29%22%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M-26-25h592.5v596H-26z%22/%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23db0000%22%20d%3D%22M255.3-20.4h312.1v275.2h-312z%22/%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%230000ab%22%20d%3D%22M-54.5%20254.8h309.9V571H-54.5zM179%20181.6l-46.5-29.2-46.2%2029.5%2017.2-48-46.2-29.6%2057.1-.4%2017.7-47.8%2018.1%2047.7h57.1l-45.9%2030z%22/%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23d80000%22%20d%3D%22m435.2%20449-46.4-29.2-46.3%2029.5%2017.2-48-46.2-29.5%2057.2-.4%2017.7-47.8%2018%2047.7h57.2l-46%2030z%22/%3E%0A%20%20%3C/g%3E%0A%3C/svg%3E"/>
+  </g>
+</svg>

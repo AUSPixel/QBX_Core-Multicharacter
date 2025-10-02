@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="r">
+      <circle cx="50" cy="50" r="50"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <image x="0" y="0" width="100" height="100" preserveAspectRatio="xMidYMid slice"
+           href="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20id%3D%22flag-icons-gw%22%20viewBox%3D%220%200%20512%20512%22%3E%0A%20%20%3Cpath%20fill%3D%22%23ce1126%22%20d%3D%22M0%200h160v512H0z%22/%3E%0A%20%20%3Cpath%20fill%3D%22%23fcd116%22%20d%3D%22M160%200h352v256H160z%22/%3E%0A%20%20%3Cpath%20fill%3D%22%23009e49%22%20d%3D%22M160%20256h352v256H160z%22/%3E%0A%20%20%3Cg%20transform%3D%22translate%28-46.2%2072.8%29scale%28.7886%29%22%3E%0A%20%20%20%20%3Cg%20id%3D%22gw-b%22%20transform%3D%22matrix%2880%200%200%2080%20160%20240%29%22%3E%0A%20%20%20%20%20%20%3Cpath%20id%3D%22gw-a%22%20fill%3D%22%23000001%22%20d%3D%22M0-1v1h.5%22%20transform%3D%22rotate%2818%200%20-1%29%22/%3E%0A%20%20%20%20%20%20%3Cuse%20xlink%3Ahref%3D%22%23gw-a%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20transform%3D%22scale%28-1%201%29%22/%3E%0A%20%20%20%20%3C/g%3E%0A%20%20%20%20%3Cuse%20xlink%3Ahref%3D%22%23gw-b%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20transform%3D%22rotate%2872%20160%20240%29%22/%3E%0A%20%20%20%20%3Cuse%20xlink%3Ahref%3D%22%23gw-b%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20transform%3D%22rotate%28144%20160%20240%29%22/%3E%0A%20%20%20%20%3Cuse%20xlink%3Ahref%3D%22%23gw-b%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20transform%3D%22rotate%28-144%20160%20240%29%22/%3E%0A%20%20%20%20%3Cuse%20xlink%3Ahref%3D%22%23gw-b%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20transform%3D%22rotate%28-72%20160%20240%29%22/%3E%0A%20%20%3C/g%3E%0A%3C/svg%3E"/>
+  </g>
+</svg>

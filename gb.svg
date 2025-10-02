@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="r">
+      <circle cx="50" cy="50" r="50"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <image x="0" y="0" width="100" height="100" preserveAspectRatio="xMidYMid slice"
+           href="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20id%3D%22flag-icons-gb%22%20viewBox%3D%220%200%20512%20512%22%3E%0A%20%20%3Cpath%20fill%3D%22%23012169%22%20d%3D%22M0%200h512v512H0z%22/%3E%0A%20%20%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M512%200v64L322%20256l190%20187v69h-67L254%20324%2068%20512H0v-68l186-187L0%2074V0h62l192%20188L440%200z%22/%3E%0A%20%20%3Cpath%20fill%3D%22%23C8102E%22%20d%3D%22m184%20324%2011%2034L42%20512H0v-3zm124-12%2054%208%20150%20147v45zM512%200%20320%20196l-4-44L466%200zM0%201l193%20189-59-8L0%2049z%22/%3E%0A%20%20%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M176%200v512h160V0zM0%20176v160h512V176z%22/%3E%0A%20%20%3Cpath%20fill%3D%22%23C8102E%22%20d%3D%22M0%20208v96h512v-96zM208%200v512h96V0z%22/%3E%0A%3C/svg%3E"/>
+  </g>
+</svg>
